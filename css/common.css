@@ -44,3 +44,10 @@ ul {
   border: 1px solid rgba(128, 128, 128, 1);
   margin-bottom: 8px;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
