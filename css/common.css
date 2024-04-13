@@ -49,9 +49,27 @@ ul {
   max-width: 1440px;
 }
 
-.name-input {
+#name-input {
   width: 360px;
   height: 40px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 8px 16px;
+  color: rgba(46, 47, 66, 1);
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid rgba(128, 128, 128, 1);
+}
+
+.title-input {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
 }
 
 .login-form {
@@ -146,7 +164,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
-  padding: 8px 72px 8px 72px;
+  /*padding: 8px 72px 8px 72px;*/
   border-radius: 8px 8px 8px 8px;
   border: 1px solid rgba(128, 128, 128, 1);
 }
