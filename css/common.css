@@ -48,6 +48,7 @@ ul {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 4px;
   row-gap: 48px;
+  max-width: 1128px;
 }
