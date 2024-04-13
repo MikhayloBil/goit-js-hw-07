@@ -36,7 +36,7 @@ const createGalleryItem = (image) => {
 
   imageElement.style.width = "360px";
   imageElement.style.height = "300px";
-  //imageElement.style.width = calc((100% - 24px) / 3);
+  listItem.style.width = calc((100% - 24px) / 3);
 
   listItem.appendChild(imageElement);
   return listItem;
